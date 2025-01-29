@@ -1,0 +1,3 @@
+# Unexpected Output with Array Input in TypeScript Function
+
+This repository demonstrates a common issue in TypeScript where the type system doesn't automatically handle array inputs when expecting a string, leading to unexpected outputs. The `greeter` function expects a string, but when an array is passed, it concatenates the array elements without proper spacing. This example highlights the importance of explicit type checking and input validation to prevent such issues.
